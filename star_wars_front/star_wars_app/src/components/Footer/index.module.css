@@ -1,0 +1,56 @@
+footer{
+  background-color: #202320;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+
+}
+
+.container_nav, .container_media{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  height: 30px;
+  width: 70px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.container_list {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.container_imgs{
+  width: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.img{
+  filter: invert(75%) sepia(21%) saturate(6999%) hue-rotate(8deg) brightness(104%) contrast(89%);
+  height: 25px;
+}
+
+.list{
+  cursor: pointer;
+}
+
+.copyright{
+  color: #fff;
+}
+
+.list:hover, .copyright:hover{
+  color: #e5af0e;
+}
+
+

@@ -1,0 +1,24 @@
+header{
+  background-color: #202320;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo_desktop{
+  height: 30px;
+  width: 70px;
+  object-fit: cover;
+}
+
+.container_list{
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list{
+  color: #e5af0e;
+}
